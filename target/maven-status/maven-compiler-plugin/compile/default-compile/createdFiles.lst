@@ -1,0 +1,5 @@
+Model\Producto_.class
+API\ProductoResource.class
+Model\Producto.class
+org\netbeans\rest\application\config\ApplicationConfig.class
+Model\ProductHelper.class

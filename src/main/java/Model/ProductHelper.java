@@ -38,6 +38,7 @@ public class ProductHelper {
         TypedQuery<Producto> consultaProducto = em.createNamedQuery("Producto.findByReferencia", Producto.class);
         consultaProducto.setParameter("referencia", ref);
         Producto prod = consultaProducto.getSingleResult();
+        System.out.println("getProducto()");
         return prod;
     }
 }

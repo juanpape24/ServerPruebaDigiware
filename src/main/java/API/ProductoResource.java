@@ -44,7 +44,7 @@ public class ProductoResource {
      * @param ref
      * @return an json instance (java.lang.String in json format)
      */
-    @GET
+    @GET    
     @Produces(MediaType.APPLICATION_JSON)
     public String getJson(@QueryParam("ref") String ref) {
         Gson gson = new Gson();
@@ -57,4 +57,5 @@ public class ProductoResource {
 
         return json;
     }
+    
 }
